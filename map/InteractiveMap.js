@@ -42,7 +42,7 @@ export default class InteractiveMap {
     this.map.geoObjects.add(this.clusterer);
   }
 
-openBalloon(coords,content){
+openBalloonContent(coords,content){
   this.map.balloon.open(coords, content);
 }
 
